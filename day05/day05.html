@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			clear:after{
+				content:"";
+				display: block;
+				height:0;
+				visibility: hidden;
+				clear:both;
+			}
+			#list{
+				overflow: hidden;
+			}
+			#list div{
+				width:20px;
+				background:red;
+				margin-right:5px ;	
+				display: inline-block;
+				vertical-align: bottom;
+			}
+		</style>
+		<script src="day05.js"></script>
+	</head>
+	<body>
+		<input type="text" id="input" />
+		<input type="button" id="btn" value="输入"/>
+		<input type="button" id="btn2" value="排序"/>
+		<div id="list" class="clear">
+			
+		</div>
+	</body>
+</html>
+
